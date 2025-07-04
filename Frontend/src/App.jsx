@@ -28,7 +28,7 @@ function App() {
     toast.loading('🧠 Reviewing your code...')
 
     try {
-      const response = await axios.post('http://localhost:3000/ai/get-response', {
+      const response = await axios.post('https://bugsniper.onrender.com/ai/get-response', {
         code,
         language,
       })
