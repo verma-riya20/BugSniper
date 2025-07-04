@@ -5,7 +5,7 @@ import cors from 'cors';
 const app=express();
 app.use(cors(
     {
-  origin: "https://bug-sniper.vercel.app/",
+  origin: "https://bug-sniper.vercel.app",
   methods: ['GET', 'POST'],
   credentials: true
 }
